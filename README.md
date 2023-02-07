@@ -1,3 +1,1 @@
-# numix-cinnamon-tranparent
-# numix-cinnamon-tranparent
-# numix-cinnamon-tranparent
+# Custom-Numix-Cinnamon-Transparent
