@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 local theme="Numix-Cinnamon-Transparent"
-local theme_dir="$HOME/.themes"
+local theme_dir="${HOME}/.themes"
 local sass_cmd="$(which sassc)"
 local sass_input="scss/cinnamon.scss"
 local sass_output="cinnamon.css"
