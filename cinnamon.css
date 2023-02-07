@@ -18,7 +18,7 @@ stage {
 }
 
 .label-shadow {
-  color: rgba(0, 0, 0, 0) !important;
+  color: transparent !important;
 }
 
 /* ======================================
@@ -62,7 +62,7 @@ StScrollView.hfade StScrollBar {
 }
 
 StScrollBar StBin#trough {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 StScrollBar StButton#vhandle,
@@ -117,7 +117,9 @@ StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
-.menu StEntry:focus > StIcon, .menu StEntry:active > StIcon, .menu StEntry:pressed > StIcon,
+.menu StEntry:focus > StIcon,
+.menu StEntry:active > StIcon,
+.menu StEntry:pressed > StIcon,
 .modal-dialog StEntry:focus > StIcon,
 .modal-dialog StEntry:active > StIcon,
 .modal-dialog StEntry:pressed > StIcon,
@@ -193,11 +195,11 @@ StScrollBar StButton#hhandle:active {
  * ! Button (global selector)
  * ====================================== */
 .button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -265,9 +267,9 @@ StScrollBar StButton#hhandle:active {
   height: 16px;
   min-width: 15em;
   -slider-height: 0;
-  -slider-background-color: rgba(0, 0, 0, 0);
+  -slider-background-color: transparent;
   -slider-border-color: #525252;
-  -slider-active-background-color: rgba(0, 0, 0, 0);
+  -slider-active-background-color: transparent;
   -slider-active-border-color: #f0544c;
   -slider-border-width: 2px;
   -slider-handle-radius: 4px;
@@ -275,8 +277,8 @@ StScrollBar StButton#hhandle:active {
 
 .separator {
   -gradient-height: 1px;
-  -gradient-start: rgba(0, 0, 0, 0);
-  -gradient-end: rgba(0, 0, 0, 0);
+  -gradient-start: transparent;
+  -gradient-end: transparent;
   -margin-horizontal: 0;
   background-image: url("img/misc/separator.svg");
   background-repeat: repeat;
@@ -327,7 +329,7 @@ StScrollBar StButton#hhandle:active {
 .popup-menu-item:active .popup-menu-item-dot {
   background-image: url("img/controls/check-dot-hover.svg");
   background-size: 10px;
-  color: rgba(0, 0, 0, 0);
+  color: transparent;
 }
 
 .popup-menu-item:insensitive {
@@ -342,7 +344,7 @@ StScrollBar StButton#hhandle:active {
 .popup-menu-item-dot {
   background-image: url("img/controls/check-dot.svg");
   background-size: 10px;
-  color: rgba(0, 0, 0, 0);
+  color: transparent;
 }
 
 .popup-sub-menu {
@@ -359,13 +361,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-submenu-menu-item:open {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 .popup-separator-menu-item {
   -gradient-height: 1px;
-  -gradient-start: rgba(0, 0, 0, 0);
-  -gradient-end: rgba(0, 0, 0, 0);
+  -gradient-start: transparent;
+  -gradient-end: transparent;
   -margin-horizontal: 0;
   background-image: url("img/misc/separator.svg");
   background-repeat: repeat;
@@ -376,9 +378,9 @@ StScrollBar StButton#hhandle:active {
   height: 16px;
   min-width: 15em;
   -slider-height: 0;
-  -slider-background-color: rgba(0, 0, 0, 0);
+  -slider-background-color: transparent;
   -slider-border-color: #525252;
-  -slider-active-background-color: rgba(0, 0, 0, 0);
+  -slider-active-background-color: transparent;
   -slider-active-border-color: #f0544c;
   -slider-border-width: 2px;
   -slider-handle-radius: 4px;
@@ -520,12 +522,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .expo-workspace-thumbnail-frame {
-  border: 5px rgba(0, 0, 0, 0);
+  border: 5px transparent;
   border-image: url("img/expo_scale/workspace-shadow.svg") 10;
 }
 
 .expo-workspace-thumbnail-frame#active {
-  border: 5px rgba(0, 0, 0, 0);
+  border: 5px transparent;
   border-image: url("img/expo_scale/workspace-shadow.svg") 10;
 }
 
@@ -535,7 +537,7 @@ StScrollBar StButton#hhandle:active {
 
 /* This shades the workspace thumbnails */
 .workspace-thumbnails .workspace-overview-background-shade {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 .expo-workspaces-name-entry {
@@ -666,7 +668,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .desklet-drag-placeholder {
-  border: 0 solid rgba(0, 0, 0, 0);
+  border: 0 solid transparent;
   border-radius: 0;
   background: none;
 }
@@ -692,9 +694,9 @@ StScrollBar StButton#hhandle:active {
  * ====================================== */
 .xkcd-box {
   padding: 12px;
-  border: 0 rgba(0, 0, 0, 0);
+  border: 0 transparent;
   box-shadow: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border-radius: 0;
 }
 
@@ -760,11 +762,11 @@ StScrollBar StButton#hhandle:active {
 
 .notification-button,
 .notification-icon-button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -986,11 +988,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog-button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -1060,7 +1062,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .run-dialog > .modal-dialog-button-box {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border-image: none;
   box-shadow: none;
   padding: 0;
@@ -1167,11 +1169,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .keyboard-key {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -1237,8 +1239,8 @@ StScrollBar StButton#hhandle:active {
 /* Appears when long-pressing certain keys */
 .keyboard-subkeys {
   -arrow-border-radius: 0;
-  -arrow-background-color: rgba(0, 0, 0, 0);
-  -arrow-border-color: rgba(0, 0, 0, 0);
+  -arrow-background-color: transparent;
+  -arrow-border-color: transparent;
   -arrow-border-width: 0;
   -arrow-base: 12px;
   -arrow-rise: 6px;
@@ -1635,11 +1637,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .sound-player-overlay StButton {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -1912,8 +1914,8 @@ StScrollBar StButton#hhandle:active {
   padding: 2px;
   width: 32px;
   height: 32px;
-  border: 0 rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
+  border: 0 transparent;
+  background-color: transparent;
 }
 
 .user-label {
@@ -2326,7 +2328,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Separator */
 .slingshot .separator {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 /* Entry */
@@ -2334,7 +2336,7 @@ StScrollBar StButton#hhandle:active {
   background-gradient-direction: none;
   background-gradient-start: transparent;
   background-gradient-end: transparent;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border: 0;
   box-shadow: none;
   border-radius: 0;
@@ -2351,7 +2353,7 @@ StScrollBar StButton#hhandle:active {
   background-gradient-direction: none;
   background-gradient-start: transparent;
   background-gradient-end: transparent;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border: 0;
   box-shadow: none;
   border-radius: 0;
@@ -2372,25 +2374,27 @@ StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
-.slingshot .entry:focus > StIcon, .slingshot .entry:active > StIcon, .slingshot .entry:pressed > StIcon {
+.slingshot .entry:focus > StIcon,
+.slingshot .entry:active > StIcon,
+.slingshot .entry:pressed > StIcon {
   color: #eee;
 }
 
 /* Paginator */
 .slingshot .button {
   background-gradient-direction: none;
-  background-color: rgba(0, 0, 0, 0);
-  border: 0 rgba(0, 0, 0, 0);
+  background-color: transparent;
+  border: 0 transparent;
   box-shadow: none;
   border-radius: 0;
-  text-shadow: 0 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 0 transparent;
   font-size: 12px;
   color: rgba(238, 238, 238, 0.65);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -2403,8 +2407,8 @@ StScrollBar StButton#hhandle:active {
 
 .slingshot .button:hover, .slingshot .button:active, .slingshot .button:checked, .slingshot .button:hover:checked, .slingshot .button:hover:active {
   background-gradient-direction: none;
-  border: 0 rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
+  border: 0 transparent;
+  background-color: transparent;
 }
 
 .slingshot .button StIcon {
@@ -2461,7 +2465,7 @@ StScrollBar StButton#hhandle:active {
 .slingshot .button.app {
   border-image: none;
   border-width: 0;
-  text-shadow: 0 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 0 transparent;
   font-size: 12px;
   font-weight: normal;
   padding: 0;
@@ -2469,7 +2473,7 @@ StScrollBar StButton#hhandle:active {
 
 .slingshot .button.app:hover, .slingshot .button.app:focus {
   border-image: url("img/containers/hover.svg") 7;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   color: #eee;
 }
 
@@ -2486,7 +2490,7 @@ StScrollBar StButton#hhandle:active {
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  border-color: rgba(0, 0, 0, 0);
+  border-color: transparent;
   font-size: 12px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -2495,23 +2499,23 @@ StScrollBar StButton#hhandle:active {
 
 .slingshot .sidebar .button:hover {
   border-image: url("img/containers/hover.svg") 7;
-  border-color: rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
+  border-color: transparent;
+  background-color: transparent;
   box-shadow: none;
   color: #eee;
 }
 
 .slingshot .sidebar .button:active, .slingshot .sidebar .button:hover:active {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: rgba(0, 0, 0, 0);
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 transparent;
   color: #eee;
 }
 
 .slingshot .sidebar .button:checked {
   border-image: url("img/misc/bar__right.svg") 7;
-  border-color: rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
+  border-color: transparent;
+  background-color: transparent;
   box-shadow: none;
   color: #eee;
   font-weight: bold;
@@ -2524,11 +2528,11 @@ StScrollBar StButton#hhandle:active {
 
 /* Linked buttons */
 .slingshot .linked .button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -2590,11 +2594,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -2655,11 +2659,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -2720,11 +2724,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -2814,7 +2818,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .xCenter-title {
-  border: 0 rgba(0, 0, 0, 0);
+  border: 0 transparent;
   border-bottom-width: 4px;
   font-size: 12px;
   font-weight: bold;
@@ -2839,7 +2843,7 @@ StScrollBar StButton#hhandle:active {
 .stopwatch-day-exceeded,
 .stopwatch-running-day-exceeded,
 .stopwatch-paused-day-exceeded {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   padding: 3px 5px;
 }
 
@@ -3085,7 +3089,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .capture-area-selection {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border: 1px solid #000;
 }
 
@@ -3338,7 +3342,8 @@ use to override window-list-item-box */
   color: #eee;
 }
 
-.timepp-panel-box .applet-box.todo-panel-item.done StLabel, .timepp-panel-box .applet-box.todo-panel-item.done StIcon {
+.timepp-panel-box .applet-box.todo-panel-item.done StLabel,
+.timepp-panel-box .applet-box.todo-panel-item.done StIcon {
   color: #4caf50;
 }
 
@@ -3358,7 +3363,8 @@ use to override window-list-item-box */
   padding: .2em .3em;
 }
 
-.timepp-menu .numpicker-arrow:hover StIcon, .timepp-menu .numpicker-arrow:focus StIcon {
+.timepp-menu .numpicker-arrow:hover StIcon,
+.timepp-menu .numpicker-arrow:focus StIcon {
   color: #f0544c;
 }
 
@@ -3382,11 +3388,11 @@ use to override window-list-item-box */
 }
 
 .timepp-menu .alarm-section .day {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -3448,11 +3454,11 @@ use to override window-list-item-box */
 }
 
 .timepp-menu .alarm-section .day:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -3513,11 +3519,11 @@ use to override window-list-item-box */
 }
 
 .timepp-menu .alarm-section .day:last-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -3578,11 +3584,11 @@ use to override window-list-item-box */
 }
 
 .timepp-menu .alarm-section .day:last-child:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -3752,7 +3758,7 @@ use to override window-list-item-box */
 
 .sticky-main-box-staples {
   border-image: url("img/containers/dark-bg.svg") 7;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border-radius: 0;
   text-shadow: none;
   min-width: 210px;
@@ -3764,7 +3770,7 @@ use to override window-list-item-box */
 
 .sticky-main-box-none {
   border-image: url("img/containers/dark-bg.svg") 7;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border-radius: 0;
   text-shadow: none;
   min-width: 210px;
@@ -3817,7 +3823,9 @@ use to override window-list-item-box */
   icon-size: 16px;
 }
 
-.sticky-text-box:focus > StIcon, .sticky-text-box:active > StIcon, .sticky-text-box:pressed > StIcon {
+.sticky-text-box:focus > StIcon,
+.sticky-text-box:active > StIcon,
+.sticky-text-box:pressed > StIcon {
   color: #eee;
 }
 
@@ -3825,7 +3833,7 @@ use to override window-list-item-box */
   background-gradient-direction: none;
   border: 0;
   border-width: 0;
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 transparent;
   border-radius: 0;
   padding: 6px;
 }
@@ -3978,11 +3986,11 @@ use to override window-list-item-box */
 }
 
 .calc-button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -4095,8 +4103,8 @@ use to override window-list-item-box */
 }
 
 .grid-preview {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .grid-preview:activate {
@@ -4114,11 +4122,11 @@ use to override window-list-item-box */
 
 /* buttons */
 .settings-button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -4183,11 +4191,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -4248,11 +4256,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
@@ -4313,11 +4321,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child:first-child {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   background-gradient-direction: none;
-  background-gradient-start: rgba(0, 0, 0, 0);
-  background-gradient-end: rgba(0, 0, 0, 0);
-  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
   border: none;
   border-width: 0;
   border-radius: 0;
